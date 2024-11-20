@@ -7,14 +7,22 @@
 #wrapper {
     width: 960px;
     height: 960px;
-    margin: 0 auto;
+    margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .div-grid {
-    height: 60px;
-    width: 60px;
     border: 1px solid black;
-    flex: auto;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+#header button {
+    padding: 30px 40px;
+    font-size: large;
 }
